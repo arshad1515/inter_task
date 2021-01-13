@@ -1,0 +1,322 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #fff !important;
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;
+
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-250 {
+    padding-top: 250px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+p {
+    font-size: 14px;
+    color: #8a8a8a;
+
+}
+
+/*
+**** header start ****
+*/
+header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.header_top a {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+
+.login_button {
+    color: #fff;
+    background: #02bcd4;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 3px;
+}
+
+/*
+**** header end ****
+*/
+
+
+/*
+**** banner start ****
+*/
+.banner {
+    background: url("../img/work.jpg") no-repeat center;
+    background-size: cover;
+    background-position: inherit;
+}
+
+
+.modern_p h1 {
+    font-weight: 100;
+}
+
+.moder_button button {
+    background: unset;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    color: #fff !important;
+}
+
+.form-control {
+    border-radius: unset !important;
+    background-color: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+    height: unset;
+    padding: 10px 15px;
+}
+
+.register_button {
+    width: 100%;
+    background: #02bcd4;
+    text-align: center;
+}
+
+/*
+**** banner end ****
+*/
+
+/*
+**** work Process start ****
+*/
+.work_h
+{
+    color: #000 !important;
+}
+.process_bg
+{
+    background: url("../img/ba.PNG") no-repeat ;
+    background-size: cover;
+}
+.p_number
+{
+    background: url("../img/gr.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rotation:hover {
+    transform:rotate(360deg);
+}
+.p_h
+{
+    font-size: 18px;
+    color: #616368;
+}
+.p_number p
+{
+    color: #FFFFFF !important;
+    font-size: 20px;
+}
+
+/*
+**** work Process end ****
+*/
+
+/*
+**** Our service start ****
+*/
+.service
+{
+    color: #000 !important;
+}
+.service h5
+{
+    text-transform: uppercase;
+}
+.service_img
+{
+    margin-right: 5px;
+
+}
+.webshark img
+{
+    width: 500px;
+}
+.tally
+{
+    margin-top: -30px;
+}
+.web
+{
+    margin-top: 50px;
+}
+.d_line
+{
+    position: absolute;
+    width: 0px;
+    border-top: 1px dashed #000;
+    border-style:dashed;
+}
+.dash_line_ivr
+{
+    top: 66px;
+    transform: rotate(-50deg);
+    height: 240px;
+    right: 52px;
+}
+.dash_line_account
+{
+    top: 66px;
+    transform: rotate(-121deg);
+    height: 264px;
+    right: 310px;
+}
+.dash_line_digital
+{
+    top: 25px;
+    transform: rotate(-271deg);
+    height: 110px;
+    right: 40px;
+}
+.dash_line_graphic
+{
+    top: 25px;
+    transform: rotate(-91deg);
+    height: 128px;
+    right: 297px;
+}
+.dash_line_recruitment
+{
+    top: -110px;
+    transform: rotate(-130deg);
+    height: 186px;
+    right: 33px;
+}
+.dash_line_business
+{
+    top: -119px;
+    transform: rotate(-59deg);
+    height: 237px;
+    right: 338px;
+}
+
+/*
+**** Our service end ****
+*/
+
+
+/*
+**** footer start ****
+*/
+footer
+{
+    font-size: 12px !important;
+}
+.footer_img{
+    background: url("../img/footer-support-img.jpg") no-repeat center;
+    background-size: auto;
+    padding-bottom: 206px;
+    padding-top: 100px;
+    background-size: cover;
+}
+.footer_content
+{
+    background: #3b3460;
+}
+.b_right
+{
+    border-right: 2px solid white;
+}
+.b_bottom
+{
+    border-bottom: 2px solid white;
+}
+/*
+**** footer end ****
+*/
+
+
+/*
+**** Mobile View ****
+*/
+
+@media only screen and (max-width: 768px) {
+
+    .header_top
+    {
+        position: absolute;
+        z-index: 1;
+    }
+    .navbar-brand
+    {
+        margin-right: unset !important;
+    }
+    .banner_content {
+        padding: 80px 0px;
+    }
+
+    .modern_content {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .modern_p h1 {
+        font-size: 29px;
+    }
+
+    .moder_button button {
+        width: 49%;
+    }
+
+    .process_left_content
+    {
+        text-align: center;
+    }
+    .work_process
+    {
+        padding-bottom: unset;
+    }
+    .dash_line_account {
+        transform: rotate(-138deg);
+        height: 146px;
+        right: 137px;
+    }
+    .dash_line_ivr {
+        transform: rotate(-34deg);
+        height: 147px;
+        right: 11px;
+    }
+    .dash_line_digital {
+        top: 26px;
+        height: 40px;
+        right: 7px;
+    }
+    .dash_line_graphic {
+        top: 29px;
+        height: 46px;
+        right: 140px;
+    }
+    .dash_line_business {
+        top: -145px;
+        transform: rotate(-35deg);
+        height: 166px;
+        right: 138px;
+    }
+    .dash_line_recruitment {
+        top: -136px;
+        transform: rotate(-152deg);
+        height: 163px;
+        right: -1px;
+    }
+}
